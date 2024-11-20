@@ -11,6 +11,7 @@
 ![wireframe]
 
 [wireframe]: ./images/soundstats_wireframe.png
+
 ## Features
 
 1. **User Authentication**
