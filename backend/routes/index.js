@@ -1,6 +1,9 @@
 const express = require('express');
 const router = express.Router();
 const csrf = require('csurf');
+const apiRouter = require('./api');
+
+router.use('/api', apiRouter);
 
 const csrfProtection = csrf({ cookie: true });
 
