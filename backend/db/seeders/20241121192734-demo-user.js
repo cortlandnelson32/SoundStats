@@ -16,99 +16,77 @@ module.exports = {
         username: 'DemoUser',
         hashedPassword: bcrypt.hashSync('password'),
         firstName: 'Demo',
-        lastName: 'User',
-        createdAt: new Date(),
-        updatedAt: new Date()
+        lastName: 'User'
       },
       {
         email: 'jane.doe@example.com',
         username: 'JaneDoe',
         hashedPassword: bcrypt.hashSync('password2'),
         firstName: 'Jane',
-        lastName: 'Doe',
-        createdAt: new Date(),
-        updatedAt: new Date()
+        lastName: 'Doe'
       },
       {
         email: 'john.smith@example.com',
         username: 'JohnSmith',
         hashedPassword: bcrypt.hashSync('password3'),
         firstName: 'John',
-        lastName: 'Smith',
-        createdAt: new Date(),
-        updatedAt: new Date()
+        lastName: 'Smith'
       },
       {
         email: 'emily.brown@example.com',
         username: 'EmilyBrown',
         hashedPassword: bcrypt.hashSync('password4'),
         firstName: 'Emily',
-        lastName: 'Brown',
-        createdAt: new Date(),
-        updatedAt: new Date()
+        lastName: 'Brown'
       },
       {
         email: 'michael.jones@example.com',
         username: 'MichaelJones',
         hashedPassword: bcrypt.hashSync('password5'),
         firstName: 'Michael',
-        lastName: 'Jones',
-        createdAt: new Date(),
-        updatedAt: new Date()
+        lastName: 'Jones'
       },
       {
         email: 'sarah.johnson@example.com',
         username: 'SarahJohnson',
         hashedPassword: bcrypt.hashSync('password6'),
         firstName: 'Sarah',
-        lastName: 'Johnson',
-        createdAt: new Date(),
-        updatedAt: new Date()
+        lastName: 'Johnson'
       },
       {
         email: 'david.williams@example.com',
         username: 'DavidWilliams',
         hashedPassword: bcrypt.hashSync('password7'),
         firstName: 'David',
-        lastName: 'Williams',
-        createdAt: new Date(),
-        updatedAt: new Date()
+        lastName: 'Williams'
       },
       {
         email: 'olivia.miller@example.com',
         username: 'OliviaMiller',
         hashedPassword: bcrypt.hashSync('password8'),
         firstName: 'Olivia',
-        lastName: 'Miller',
-        createdAt: new Date(),
-        updatedAt: new Date()
+        lastName: 'Miller'
       },
       {
         email: 'william.davis@example.com',
         username: 'WilliamDavis',
         hashedPassword: bcrypt.hashSync('password9'),
         firstName: 'William',
-        lastName: 'Davis',
-        createdAt: new Date(),
-        updatedAt: new Date()
+        lastName: 'Davis'
       },
       {
         email: 'sophia.moore@example.com',
         username: 'SophiaMoore',
         hashedPassword: bcrypt.hashSync('password10'),
         firstName: 'Sophia',
-        lastName: 'Moore',
-        createdAt: new Date(),
-        updatedAt: new Date()
+        lastName: 'Moore'
       },
       {
         email: 'daniel.taylor@example.com',
         username: 'DanielTaylor',
         hashedPassword: bcrypt.hashSync('password11'),
         firstName: 'Daniel',
-        lastName: 'Taylor',
-        createdAt: new Date(),
-        updatedAt: new Date()
+        lastName: 'Taylor'
       }
     ], {
       validate: true
