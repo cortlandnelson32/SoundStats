@@ -15,7 +15,6 @@ const app = express();
 app.use(morgan('dev'));
 app.use(cookieParser());
 app.use(express.json());
-app.use(routes);
 
 //security
 if (!isProduction) {
@@ -35,6 +34,8 @@ app.use(
     }
   })
 );
+
+app.use(routes);
 
 //error handling
 app.use((_req, _res, next) => {
