@@ -37,7 +37,7 @@
 
 1. Clone the repository.  
 2. Install dependencies: `npm install`  
-3. Run the development server: `npm start`
+3. Run the development server: `flask run`
 4. Run the frontend server: `npm run dev`  
 
 ## Technologies Used
