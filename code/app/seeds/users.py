@@ -2,6 +2,8 @@ from app.models import db, User, environment, SCHEMA
 from werkzeug.security import generate_password_hash
 from sqlalchemy.sql import text
 
+
+
 def seed_users():
     demo_user = User(
         email='demo@user.io',

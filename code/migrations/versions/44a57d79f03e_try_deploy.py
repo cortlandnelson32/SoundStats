@@ -1,16 +1,19 @@
-"""before seeds
+"""try deploy
 
-Revision ID: 609449ec8e38
+Revision ID: 44a57d79f03e
 Revises: 
-Create Date: 2024-11-27 17:05:33.486242
+Create Date: 2024-11-27 17:21:53.269491
 
 """
 from alembic import op
 import sqlalchemy as sa
 
+import os
+environment = os.getenv("FLASK_ENV")
+SCHEMA = os.environ.get("SCHEMA")
 
 # revision identifiers, used by Alembic.
-revision = '609449ec8e38'
+revision = '44a57d79f03e'
 down_revision = None
 branch_labels = None
 depends_on = None
