@@ -130,8 +130,8 @@ def seed_reports():
 
 def undo_reports():
     if environment == "production":
-        db.session.execute(f"TRUNCATE table {SCHEMA}.reports RESTART IDENTITY CASCADE;")
+      db.session.execute(f"TRUNCATE table {SCHEMA}.reports RESTART IDENTITY CASCADE;")
     else:
-        db.session.execute(text("DELETE FROM reports"))
+      db.session.execute(text("DELETE FROM reports"))
         
     db.session.commit()
