@@ -1,6 +1,6 @@
 """done seeds
 
-Revision ID: ecf1598175d0
+Revision ID: ceac6ac519f9
 Revises: 
 Create Date: 2024-11-27 12:22:10.010570
 
@@ -10,7 +10,7 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision = 'ecf1598175d0'
+revision = 'ceac6ac519f9'
 down_revision = None
 branch_labels = None
 depends_on = None
