@@ -1,8 +1,8 @@
-"""trying seeds
+"""done seeds
 
-Revision ID: 9accc202b7e7
+Revision ID: ecf1598175d0
 Revises: 
-Create Date: 2024-11-26 18:02:06.989938
+Create Date: 2024-11-27 12:22:10.010570
 
 """
 from alembic import op
@@ -10,7 +10,7 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision = '9accc202b7e7'
+revision = 'ecf1598175d0'
 down_revision = None
 branch_labels = None
 depends_on = None
